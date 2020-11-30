@@ -1,0 +1,140 @@
+*{
+    font-family: 'Spartan', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    color: grey;
+    margin: 0;
+    height: 100%;
+    line-height: 1.5em;
+}
+
+header {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 20px 60px 50px;
+    
+}
+h1{ 
+    display: block;
+    padding: 60px;
+    width: 100%;
+    margin: 12px 0 0;
+    z-index: 1;
+    text-align: center;
+    font-size: 60pt;
+    font-weight: 700;
+    color: dimgray;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+
+
+}
+
+nav{
+    position: fixed;
+    width: 150px;
+    height: 100%;
+    background-color: dimgrey;
+    overflow: hidden;
+    box-shadow: 0 1px 10px lightgray;
+    z-index: 10;
+}
+ul:first-of-type{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+}
+ul:first-of-type li a{
+    display: block;
+    position: relative;
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none; 
+    color:lightgray;  
+}
+ul:first-of-type li a:hover{
+    background-color: orange;
+    color: lightgray;
+    transition: all 0.3s ease-in-out;
+}
+
+#main {
+    height: 100%;
+    margin-left:150px;
+    position: relative;
+    background-color: transparent;
+}
+main {
+    background-image: url("../imagenes/laptop-1031224.jpg");
+    position: relative;
+    width:100%;
+    height: 100%;
+    padding: 25px 5%;
+    background-color: #f5f5f5;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+
+}
+figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: auto;
+    width: 70%;
+}
+figcaption{
+    padding: 40px;
+}
+section {
+    background-color:transparent;
+    display:block; 
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1240px;
+    overflow: hidden;
+    text-align: justify;
+    padding: 16em;
+    color: #6b5825;
+    font-weight: 500;
+   
+  
+}
+
+.info{
+    display: inline;
+    list-style-type: none;
+
+    
+}
+.bg{
+    
+    position: absolute;
+    margin: 0 auto;
+    width: 100%; 
+    height: 100%;  
+    opacity: 0.2; 
+    
+    
+    
+   
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+ul.social li a:hover{
+    background-color: transparent;
+    
+}
+
+
